@@ -16,7 +16,7 @@ public class Masina {
         String text="";
 
         text+="Marca autoturismului este:    "+this.marca+"\n";
-        text+="Modelul autoturismului este:    "+this.model+"\n"
+        text+="Modelul autoturismului este:    "+this.model+"\n";
         text+="Seria de sasiu:  "+ this.serieSasiu+"\n";
         text+="Anul de fabricatie:      "+this.an+"\n";
         text+= "Masina "+ (this.esteElectrica? "este electrica ":"nu este electrica");

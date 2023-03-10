@@ -7,20 +7,25 @@ public class Main {
     public static void main(String[] args) {
 
 
-        ControllUser controllUser = new ControllUser();
+         ControllUser controllUser = new ControllUser();
+//
+//       controllUser.loadUser();
+//
+//
+//        //controllUser.afisareUser();
+//        System.out.println( controllUser.nrPersoaneActive());
+//       // controllUser.nrPersoaneActive();
+//
+//
+//        User varstnic=controllUser.persoanaBatrana();
+//
+//
+//        System.out.println(varstnic.descriere());
 
-       controllUser.load();
 
+        ControllUser masina = new ControllUser();
 
-        //controllUser.afisareUser();
-        System.out.println( controllUser.nrPersoaneActive());
-       // controllUser.nrPersoaneActive();
-
-
-        User varstnic=controllUser.persoanaBatrana();
-
-
-        System.out.println(varstnic.descriere());
+        controllUser.loadMasina();
 
 
     }

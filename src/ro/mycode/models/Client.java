@@ -13,7 +13,7 @@ public class Client {
         String text="";
 
         text+="Numele clientului este:    "+this.nume+"\n";
-        text+="ID-ul clientului este:    "+this.idClient+"\n"
+        text+="ID-ul clientului este:    "+this.idClient+"\n";
         text+="Judetul in care traieste clentul::  "+ this.judet+"\n";
         text+="Numarul de comenzi comandate pana in prezent:      "+this.nrComenzi+"\n";
         text+= "Clientul "+ (this.esteMajor? "este major ":"nu este major");

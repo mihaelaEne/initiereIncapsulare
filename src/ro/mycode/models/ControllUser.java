@@ -256,4 +256,15 @@ public class ControllUser {
             System.out.println(this.clienti.get(i).descriere());
         }
     }
+
+
+    public int masiniElectrice() {
+        int ct = 0;
+        for (int i = 0; i < this.masini.size(); i++) {
+            if (this.masini.get(i).esteElectrica == true) {
+                ct++;
+            }
+        }
+        return ct;
+    }
 }
